@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  campFire.h
 //  someUIViewDemos
 //
 //  Created by Nguyen Thanh To on 7/13/17.
 //  Copyright © 2017 ThanhTo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ConsoleScreen.h"
 
-@interface ViewController : UIViewController
-
+@interface campFire : ConsoleScreen
 
 @end
-

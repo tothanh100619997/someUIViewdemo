@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		E314EA351F1707060060F806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA341F1707060060F806 /* main.m */; };
-		E314EA381F1707060060F806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA371F1707060060F806 /* AppDelegate.m */; };
-		E314EA3B1F1707060060F806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA3A1F1707060060F806 /* ViewController.m */; };
 		E314EA3E1F1707060060F806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E314EA3C1F1707060060F806 /* Main.storyboard */; };
 		E314EA401F1707060060F806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E314EA3F1F1707060060F806 /* Assets.xcassets */; };
 		E314EA431F1707060060F806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E314EA411F1707060060F806 /* LaunchScreen.storyboard */; };
-		E314EA4E1F1707060060F806 /* someUIViewDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA4D1F1707060060F806 /* someUIViewDemosTests.m */; };
-		E314EA591F1707060060F806 /* someUIViewDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA581F1707060060F806 /* someUIViewDemosUITests.m */; };
+		E314EA711F1707B70060F806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA6C1F1707B70060F806 /* AppDelegate.m */; };
+		E314EA721F1707B70060F806 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA6E1F1707B70060F806 /* BootLogic.m */; };
+		E314EA731F1707B70060F806 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA701F1707B70060F806 /* ConsoleScreen.m */; };
+		E314EA761F1707CE0060F806 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EA751F1707CE0060F806 /* MainScreen.m */; };
+		E314EA8A1F1709C60060F806 /* campFire01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA791F1709C60060F806 /* campFire01.gif */; };
+		E314EA8B1F1709C60060F806 /* campFire02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7A1F1709C60060F806 /* campFire02.gif */; };
+		E314EA8C1F1709C60060F806 /* campFire03.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7B1F1709C60060F806 /* campFire03.gif */; };
+		E314EA8D1F1709C60060F806 /* campFire04.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7C1F1709C60060F806 /* campFire04.gif */; };
+		E314EA8E1F1709C60060F806 /* campFire05.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7D1F1709C60060F806 /* campFire05.gif */; };
+		E314EA8F1F1709C60060F806 /* campFire06.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7E1F1709C60060F806 /* campFire06.gif */; };
+		E314EA901F1709C60060F806 /* campFire07.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA7F1F1709C60060F806 /* campFire07.gif */; };
+		E314EA911F1709C60060F806 /* campFire08.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA801F1709C60060F806 /* campFire08.gif */; };
+		E314EA921F1709C70060F806 /* campFire09.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA811F1709C60060F806 /* campFire09.gif */; };
+		E314EA931F1709C70060F806 /* campFire10.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA821F1709C60060F806 /* campFire10.gif */; };
+		E314EA941F1709C70060F806 /* campFire11.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA831F1709C60060F806 /* campFire11.gif */; };
+		E314EA951F1709C70060F806 /* campFire12.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA841F1709C60060F806 /* campFire12.gif */; };
+		E314EA961F1709C70060F806 /* campFire13.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA851F1709C60060F806 /* campFire13.gif */; };
+		E314EA971F1709C70060F806 /* campFire14.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA861F1709C60060F806 /* campFire14.gif */; };
+		E314EA981F1709C70060F806 /* campFire15.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA871F1709C60060F806 /* campFire15.gif */; };
+		E314EA991F1709C70060F806 /* campFire16.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA881F1709C60060F806 /* campFire16.gif */; };
+		E314EA9A1F1709C70060F806 /* campFire17.gif in Resources */ = {isa = PBXBuildFile; fileRef = E314EA891F1709C60060F806 /* campFire17.gif */; };
+		E314EAA31F170ECD0060F806 /* campFire.m in Sources */ = {isa = PBXBuildFile; fileRef = E314EAA21F170ECD0060F806 /* campFire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +55,39 @@
 /* Begin PBXFileReference section */
 		E314EA301F1707060060F806 /* someUIViewDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = someUIViewDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E314EA341F1707060060F806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E314EA361F1707060060F806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E314EA371F1707060060F806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E314EA391F1707060060F806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E314EA3A1F1707060060F806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E314EA3D1F1707060060F806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E314EA3F1F1707060060F806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E314EA421F1707060060F806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E314EA441F1707060060F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E314EA491F1707060060F806 /* someUIViewDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = someUIViewDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E314EA4D1F1707060060F806 /* someUIViewDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = someUIViewDemosTests.m; sourceTree = "<group>"; };
-		E314EA4F1F1707060060F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E314EA541F1707060060F806 /* someUIViewDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = someUIViewDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E314EA581F1707060060F806 /* someUIViewDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = someUIViewDemosUITests.m; sourceTree = "<group>"; };
-		E314EA5A1F1707060060F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E314EA6B1F1707B70060F806 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Bootstrap-master/TechmasterApp/AppDelegate.h"; sourceTree = "<group>"; };
+		E314EA6C1F1707B70060F806 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Bootstrap-master/TechmasterApp/AppDelegate.m"; sourceTree = "<group>"; };
+		E314EA6D1F1707B70060F806 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BootLogic.h; path = "Bootstrap-master/TechmasterApp/BootLogic.h"; sourceTree = "<group>"; };
+		E314EA6E1F1707B70060F806 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BootLogic.m; path = "Bootstrap-master/TechmasterApp/BootLogic.m"; sourceTree = "<group>"; };
+		E314EA6F1F1707B70060F806 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleScreen.h; path = "Bootstrap-master/TechmasterApp/ConsoleScreen.h"; sourceTree = "<group>"; };
+		E314EA701F1707B70060F806 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsoleScreen.m; path = "Bootstrap-master/TechmasterApp/ConsoleScreen.m"; sourceTree = "<group>"; };
+		E314EA741F1707CE0060F806 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScreen.h; path = "Bootstrap-master/TechmasterApp/MainScreen.h"; sourceTree = "<group>"; };
+		E314EA751F1707CE0060F806 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScreen.m; path = "Bootstrap-master/TechmasterApp/MainScreen.m"; sourceTree = "<group>"; };
+		E314EA791F1709C60060F806 /* campFire01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire01.gif; sourceTree = "<group>"; };
+		E314EA7A1F1709C60060F806 /* campFire02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire02.gif; sourceTree = "<group>"; };
+		E314EA7B1F1709C60060F806 /* campFire03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire03.gif; sourceTree = "<group>"; };
+		E314EA7C1F1709C60060F806 /* campFire04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire04.gif; sourceTree = "<group>"; };
+		E314EA7D1F1709C60060F806 /* campFire05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire05.gif; sourceTree = "<group>"; };
+		E314EA7E1F1709C60060F806 /* campFire06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire06.gif; sourceTree = "<group>"; };
+		E314EA7F1F1709C60060F806 /* campFire07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire07.gif; sourceTree = "<group>"; };
+		E314EA801F1709C60060F806 /* campFire08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire08.gif; sourceTree = "<group>"; };
+		E314EA811F1709C60060F806 /* campFire09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire09.gif; sourceTree = "<group>"; };
+		E314EA821F1709C60060F806 /* campFire10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire10.gif; sourceTree = "<group>"; };
+		E314EA831F1709C60060F806 /* campFire11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire11.gif; sourceTree = "<group>"; };
+		E314EA841F1709C60060F806 /* campFire12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire12.gif; sourceTree = "<group>"; };
+		E314EA851F1709C60060F806 /* campFire13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire13.gif; sourceTree = "<group>"; };
+		E314EA861F1709C60060F806 /* campFire14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire14.gif; sourceTree = "<group>"; };
+		E314EA871F1709C60060F806 /* campFire15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire15.gif; sourceTree = "<group>"; };
+		E314EA881F1709C60060F806 /* campFire16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire16.gif; sourceTree = "<group>"; };
+		E314EA891F1709C60060F806 /* campFire17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire17.gif; sourceTree = "<group>"; };
+		E314EAA11F170ECD0060F806 /* campFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = campFire.h; sourceTree = "<group>"; };
+		E314EAA21F170ECD0060F806 /* campFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = campFire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				E314EA321F1707060060F806 /* someUIViewDemos */,
-				E314EA4C1F1707060060F806 /* someUIViewDemosTests */,
-				E314EA571F1707060060F806 /* someUIViewDemosUITests */,
 				E314EA311F1707060060F806 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,10 +136,8 @@
 		E314EA321F1707060060F806 /* someUIViewDemos */ = {
 			isa = PBXGroup;
 			children = (
-				E314EA361F1707060060F806 /* AppDelegate.h */,
-				E314EA371F1707060060F806 /* AppDelegate.m */,
-				E314EA391F1707060060F806 /* ViewController.h */,
-				E314EA3A1F1707060060F806 /* ViewController.m */,
+				E314EA661F17073E0060F806 /* Core */,
+				E314EA771F1709210060F806 /* Basic */,
 				E314EA3C1F1707060060F806 /* Main.storyboard */,
 				E314EA3F1F1707060060F806 /* Assets.xcassets */,
 				E314EA411F1707060060F806 /* LaunchScreen.storyboard */,
@@ -122,22 +155,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E314EA4C1F1707060060F806 /* someUIViewDemosTests */ = {
+		E314EA661F17073E0060F806 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E314EA4D1F1707060060F806 /* someUIViewDemosTests.m */,
-				E314EA4F1F1707060060F806 /* Info.plist */,
+				E314EA741F1707CE0060F806 /* MainScreen.h */,
+				E314EA751F1707CE0060F806 /* MainScreen.m */,
+				E314EA6B1F1707B70060F806 /* AppDelegate.h */,
+				E314EA6C1F1707B70060F806 /* AppDelegate.m */,
+				E314EA6D1F1707B70060F806 /* BootLogic.h */,
+				E314EA6E1F1707B70060F806 /* BootLogic.m */,
+				E314EA6F1F1707B70060F806 /* ConsoleScreen.h */,
+				E314EA701F1707B70060F806 /* ConsoleScreen.m */,
 			);
-			path = someUIViewDemosTests;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		E314EA571F1707060060F806 /* someUIViewDemosUITests */ = {
+		E314EA771F1709210060F806 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				E314EA581F1707060060F806 /* someUIViewDemosUITests.m */,
-				E314EA5A1F1707060060F806 /* Info.plist */,
+				E314EAA11F170ECD0060F806 /* campFire.h */,
+				E314EAA21F170ECD0060F806 /* campFire.m */,
+				E314EA781F1709790060F806 /* bonFire */,
 			);
-			path = someUIViewDemosUITests;
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		E314EA781F1709790060F806 /* bonFire */ = {
+			isa = PBXGroup;
+			children = (
+				E314EA791F1709C60060F806 /* campFire01.gif */,
+				E314EA7A1F1709C60060F806 /* campFire02.gif */,
+				E314EA7B1F1709C60060F806 /* campFire03.gif */,
+				E314EA7C1F1709C60060F806 /* campFire04.gif */,
+				E314EA7D1F1709C60060F806 /* campFire05.gif */,
+				E314EA7E1F1709C60060F806 /* campFire06.gif */,
+				E314EA7F1F1709C60060F806 /* campFire07.gif */,
+				E314EA801F1709C60060F806 /* campFire08.gif */,
+				E314EA811F1709C60060F806 /* campFire09.gif */,
+				E314EA821F1709C60060F806 /* campFire10.gif */,
+				E314EA831F1709C60060F806 /* campFire11.gif */,
+				E314EA841F1709C60060F806 /* campFire12.gif */,
+				E314EA851F1709C60060F806 /* campFire13.gif */,
+				E314EA861F1709C60060F806 /* campFire14.gif */,
+				E314EA871F1709C60060F806 /* campFire15.gif */,
+				E314EA881F1709C60060F806 /* campFire16.gif */,
+				E314EA891F1709C60060F806 /* campFire17.gif */,
+			);
+			name = bonFire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +310,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E314EA901F1709C60060F806 /* campFire07.gif in Resources */,
+				E314EA8B1F1709C60060F806 /* campFire02.gif in Resources */,
+				E314EA921F1709C70060F806 /* campFire09.gif in Resources */,
+				E314EA971F1709C70060F806 /* campFire14.gif in Resources */,
 				E314EA431F1707060060F806 /* LaunchScreen.storyboard in Resources */,
+				E314EA9A1F1709C70060F806 /* campFire17.gif in Resources */,
+				E314EA8C1F1709C60060F806 /* campFire03.gif in Resources */,
 				E314EA401F1707060060F806 /* Assets.xcassets in Resources */,
+				E314EA981F1709C70060F806 /* campFire15.gif in Resources */,
+				E314EA8A1F1709C60060F806 /* campFire01.gif in Resources */,
+				E314EA8D1F1709C60060F806 /* campFire04.gif in Resources */,
+				E314EA931F1709C70060F806 /* campFire10.gif in Resources */,
+				E314EA8E1F1709C60060F806 /* campFire05.gif in Resources */,
+				E314EA951F1709C70060F806 /* campFire12.gif in Resources */,
+				E314EA991F1709C70060F806 /* campFire16.gif in Resources */,
+				E314EA911F1709C60060F806 /* campFire08.gif in Resources */,
+				E314EA941F1709C70060F806 /* campFire11.gif in Resources */,
+				E314EA961F1709C70060F806 /* campFire13.gif in Resources */,
 				E314EA3E1F1707060060F806 /* Main.storyboard in Resources */,
+				E314EA8F1F1709C60060F806 /* campFire06.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +354,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E314EA3B1F1707060060F806 /* ViewController.m in Sources */,
-				E314EA381F1707060060F806 /* AppDelegate.m in Sources */,
+				E314EAA31F170ECD0060F806 /* campFire.m in Sources */,
+				E314EA721F1707B70060F806 /* BootLogic.m in Sources */,
+				E314EA761F1707CE0060F806 /* MainScreen.m in Sources */,
+				E314EA731F1707B70060F806 /* ConsoleScreen.m in Sources */,
+				E314EA711F1707B70060F806 /* AppDelegate.m in Sources */,
 				E314EA351F1707060060F806 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +367,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E314EA4E1F1707060060F806 /* someUIViewDemosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E314EA591F1707060060F806 /* someUIViewDemosUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

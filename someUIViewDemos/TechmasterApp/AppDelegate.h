@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  someUIViewDemos
+//  TechmasterApp
 //
-//  Created by Nguyen Thanh To on 7/13/17.
-//  Copyright © 2017 ThanhTo. All rights reserved.
+//  Created by techmaster on 9/7/14.
+//  Copyright (c) 2014 Techmaster. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
